@@ -1,0 +1,48 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="header">
+        <a class="navbar-brand" href="#home">
+            <img class="logo" src="src/assets/logo Nav.png" alt="Logo" />
+            Parcel Service
+        </a>
+    </div>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#Home">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Service
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" routerLink="/view-parcel">View Parcel</a>
+                    <a class="dropdown-item" routerLink="/search-parcel">Search Parcel</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Logout">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="image">
+    <img src="../../assets/pexels-photo-6721914.webp" alt="Admin login" />
+    <p class="logo-text">Admin</p>
+    <div class="view">
+        <button type="button">View Parcel</button>
+    </div>
+    <div class="search">
+        <button type="button">Search User</button>
+    </div>
+</div>
